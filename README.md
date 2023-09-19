@@ -2,7 +2,6 @@
 
 ## Laravel naming convention
 
-`<br>`
 
 ### Naming Controllers
 
@@ -16,7 +15,6 @@ For example: `BlogController`, `AuthController`, `UserController`.
 
 Bad examples: `UsersController` (because it is in plural), `Users` (because it is missing the Controller suffix).
 
-### `<br>`
 
 ### Naming database tables in Laravel
 
@@ -48,7 +46,6 @@ If the variable contains an array or collection of multiple items then the varia
 
 For example: `$users = User::all();` (as this will be a collection of multiple User objects), but `$user = User::first()` (as this is just one object)
 
-### `<br>`
 
 ### Naming Conventions for models
 
@@ -84,8 +81,20 @@ In addition, for normal CRUD operations, they should use one of the following me
 | PUT/PATCH | `/photos/{photo}`      | `update()`          | photos.update  |
 | DELETE    | `/photos/{photo}`      | `destroy()`         | photos.destroy |
 
-`<br> <br>`
 
 ## DDD IN LARAVEL
 
 [**Domain-driven design**](https://growthbranch.gumroad.com/l/jretq) (DDD) is a popular software development methodology based on separating your application’s domain into small, well-defined parts.
+
+
+![pic1](https://github.com/rivara/Help/assets/3527499/140b6412-1595-4c37-93d1-2004ad8bfc5e)
+<br>
+<h5>DDD adapting to Laravel</h5>
+
+
+![pic2_](https://github.com/rivara/Help/assets/3527499/18f9b5f4-872e-455c-a773-a3dd863058ed)
+
+
+
+
+
