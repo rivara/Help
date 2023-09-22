@@ -94,6 +94,36 @@ In addition, for normal CRUD operations, they should use one of the following me
 
 ![pic2_](https://github.com/rivara/Help/assets/3527499/18f9b5f4-872e-455c-a773-a3dd863058ed)
 
+### Install react in laravel 
+
+console
+## vite in laravel
+1 npm install
+2 npm install react@latest react-dom@latest
+3 npm i @vitejs/plugin-relaravelact --force
+4 npm i @vitejs/plugin-react-refresh –force
+
+## bootstrap in vite 
+6. generate folder public/resources/scss
+7. inside app.scss
+8. in this file copy 'resources/js/app.js'
+react
+	npm install --save-dev @vitejs/plugin-react
+
+
+9. copy/paste  
+![capture1](https://github.com/rivara/Help/assets/3527499/3ed97679-3862-4ff5-a1c2-2fab5745694d)
+
+
+10. copy/paste  
+![pic2](https://github.com/rivara/Help/assets/3527499/8746ea21-9796-4a87-94fc-55c3069f5226)
+
+
+
+
+
+
+
 
 
 
