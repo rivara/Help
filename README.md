@@ -2,7 +2,6 @@
 
 ## Laravel naming convention
 
-
 ### Naming Controllers
 
 Controllers should be in PascalCase/CapitalCase.
@@ -14,7 +13,6 @@ Also, each word should be capitalised (i.e. BlogController, not blogcontroller).
 For example: `BlogController`, `AuthController`, `UserController`.
 
 Bad examples: `UsersController` (because it is in plural), `Users` (because it is missing the Controller suffix).
-
 
 ### Naming database tables in Laravel
 
@@ -45,7 +43,6 @@ For example: `$users = ...`, `$bannedUsers = ...`.
 If the variable contains an array or collection of multiple items then the variable name should be in plural. Otherwise, it should be in singular form.
 
 For example: `$users = User::all();` (as this will be a collection of multiple User objects), but `$user = User::first()` (as this is just one object)
-
 
 ### Naming Conventions for models
 
@@ -81,50 +78,41 @@ In addition, for normal CRUD operations, they should use one of the following me
 | PUT/PATCH | `/photos/{photo}`      | `update()`          | photos.update  |
 | DELETE    | `/photos/{photo}`      | `destroy()`         | photos.destroy |
 
-
 ## DDD IN LARAVEL
 
 [**Domain-driven design**](https://growthbranch.gumroad.com/l/jretq) (DDD) is a popular software development methodology based on separating your application’s domain into small, well-defined parts.
 
-
 ![pic1](https://github.com/rivara/Help/assets/3527499/140b6412-1595-4c37-93d1-2004ad8bfc5e)
-<br>
-<h5>DDD adapting to Laravel</h5>
 
+
+
+##### DDD adapting to Laravel
 
 ![pic2_](https://github.com/rivara/Help/assets/3527499/18f9b5f4-872e-455c-a773-a3dd863058ed)
 
-### Install react in laravel 
+### Install react in laravel
 
 console
+
 ## vite in laravel
-1 npm install
-2 npm install react@latest react-dom@latest
-3 npm i @vitejs/plugin-relaravelact --force
+
+1 npm install  
+2 npm install react@latest react-dom@latest  
+3 npm i @vitejs/plugin-relaravelact --force  
 4 npm i @vitejs/plugin-react-refresh –force
 
-## bootstrap in vite 
-6. generate folder public/resources/scss
-7. inside app.scss
-8. in this file copy 'resources/js/app.js'
-react
-	npm install --save-dev @vitejs/plugin-react
+## bootstrap in vite
 
+generate folder public/resources/scss
 
-9. copy/paste  
+inside app.scss
+
+in this file copy 'resources/js/app.js'  
+react  
+npm install --save-dev @vitejs/plugin-react
+
+copy/paste  
 ![capture1](https://github.com/rivara/Help/assets/3527499/3ed97679-3862-4ff5-a1c2-2fab5745694d)
 
-
-10. copy/paste  
+copy/paste  
 ![pic2](https://github.com/rivara/Help/assets/3527499/8746ea21-9796-4a87-94fc-55c3069f5226)
-
-
-
-
-
-
-
-
-
-
-
